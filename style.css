@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-image: url(./img/214-2148738_beautiful-smoky-mountain-cover-with-fog-wallpaper-.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .cal {
+    width: 320px;
+    height: 480px;
+    background: rgba(14, 13, 13, 0);
+    align-items: center;
+    
+  }
+
+  .output {
+      width: 320px;
+      height: 125px;
+      background-color: #0e0d0dd5;
+      border: 0;
+      color: rgb(218, 206, 205);
+      font-size: 23px;
+      text-align: right;
+      padding-right: 20px;
+}
+
+  .first-operand {
+    width: 320px;
+    height: 62.5px;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 18px;
+    text-align: right;
+    padding-right: 20px;
+
+  }
+
+  .second-operand {
+    width: 320px;
+    height: 62.5px;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+    text-align: right;
+    padding-right: 20px;
+
+  }
+
+  .c {
+      width: 160px;
+      height: 71px;
+      background-color: #0e0d0dd5;
+      text-align: center;
+      border: 0;
+      color: rgb(175, 61, 46);
+      font-size: 23px;
+      
+  }
+  
+  .cor {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .del {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .seven {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+  .eight {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+  .nine {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+  .um {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .four {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .five {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+  .six {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .min {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .one {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .two {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .three {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .plus {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  #or {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .nole {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .crop {
+    width: 80px;
+    height: 71px;
+    background-color:#0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  .rav {
+    width: 80px;
+    height: 71px;
+    background-color: #0e0d0dd5;
+    text-align: center;
+    border: 0;
+    color: rgb(218, 206, 205);
+    font-size: 23px;
+  }
+
+  :active, :hover, :focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
+
+.accordion {
+    background-color:  #0e0d0dd5;
+    color:  rgb(218, 206, 205);
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 3px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 23px;
+    size: 23px;
+  }
+
+  .active, .accordion:hover {
+    background-color: #0e0d0dd5;
+  }
+
+    .panel {
+        padding: 0 18px;
+        background:  #0e0d0dd5;
+        display: none;
+        overflow: hidden;
+        color:  rgb(218, 206, 205);
+      }
+
+ 
+
+
+
+
+  
+

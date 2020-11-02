@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div class="cal">
+
+        <button class="accordion">◴</button>
+            <div class="panel" data-history>
+                
+            </div>
+
+
+        <div>
+            <div class="output"> 
+                <div data-previous-operand class="first-operand" ></div>
+                <div data-current-operand class="second-operand">0</div>
+              </div>
+        </div>
+
+
+        <button data-all-clear class="c">C</button><button class="cor" data-operation >√</button><button class="del" data-operation>/</button>
+        
+        <button class="seven" data-number>7</button><button data-number class="eight">8</button><button data-number class="nine">9</button><button data-operation class="um">*</button>
+
+        <button data-number class="four">4</button><button data-number class="five">5</button><button data-number class="six">6</button><button data-operation class="min">-</button>
+        
+        <button data-number class="one">1</button><button data-number class="two">2</button><button data-number class="three">3</button><button data-operation class="plus">+</button>
+
+        <button id="or">+/-</button><button data-number class="nole">0</button><button class="crop" data-number>.</button><button data-equals class="rav">=</button>
+     
+    </div>
+ <script src="./script.js" defer></script>
+</body>
