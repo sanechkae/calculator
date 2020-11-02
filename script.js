@@ -63,13 +63,25 @@ for (i = 0; i < acc.length; i++) {
 	var numberButtons = document.querySelectorAll('[data-number]');
 	numberButtons.forEach(function(elem) {
 		elem.addEventListener("click", function() {
-			if (step == 0) {
-				firstOperandValue = firstOperandValue + elem.innerHTML;
-				currentOperandTextElement.innerHTML = firstOperandValue;
-			} else if (step > 0) {
-				step = 2;
-				secondOperandValue = secondOperandValue + elem.innerHTML;
-				currentOperandTextElement.innerHTML = firstOperandValue + ' ' + operation + ' ' + secondOperandValue;
+			var go = true;
+			if (elem.innerHTML == '.') {
+				if (firstOperandValue == '') {
+					firstOperandValue = '0';
+				}
+				if (firstOperandValue.indexOf('.') >= 0) {
+					go = false;
+				}
+				console.log (firstOperandValue.substr(firstOperandValue.length-1));
+			}
+			if (go) {
+				if (step == 0) {
+					firstOperandValue = firstOperandValue + elem.innerHTML;
+					currentOperandTextElement.innerHTML = firstOperandValue;
+				} else if (step > 0) {
+					step = 2;
+					secondOperandValue = secondOperandValue + elem.innerHTML;
+					currentOperandTextElement.innerHTML = firstOperandValue + ' ' + operation + ' ' + secondOperandValue;
+				}
 			}
 		});
 	});
